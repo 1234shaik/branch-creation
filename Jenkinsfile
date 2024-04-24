@@ -7,5 +7,10 @@ pipeline {
         git clone repourl
       }
     }
+    stage ("maven build") {
+      steps {
+        mvn clean
+      }
+    }
   }
 }
