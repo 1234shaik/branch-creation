@@ -12,5 +12,10 @@ pipeline {
         mvn clean
       }
     }
+    stage ("sonar codeanalysis") {
+     steps {
+       sonarqube
+     }
+    }
   }
 }
