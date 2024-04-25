@@ -1,4 +1,4 @@
-FROM base image
+FROM base images
 COPY copy the file to destination
 ADD
 From base images
