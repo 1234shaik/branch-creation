@@ -1,4 +1,4 @@
 FROM base image
 COPY copy the file to destination
 ADD
-FROM base images to runt the dockerfile
+FROM base images to  dockerfile
