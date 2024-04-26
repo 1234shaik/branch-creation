@@ -1,5 +1,5 @@
 FROM base images
 COPY copy the file to destination
 ADD
-From base images
+From base images are local
 
