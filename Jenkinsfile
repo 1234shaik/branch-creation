@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage ("git clone") {
       steps {
-        git clone r
+        git clone url
       }
     }
     stage ("maven build") {
